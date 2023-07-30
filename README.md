@@ -7,7 +7,7 @@
 including both the spatial and temporal understanding.
 ## News
 
-**[2023.7.28]** SEED-Bench is released! Data and evaluation code is available now.
+**[2023.7.30]** SEED-Bench is released! Data and evaluation code is available now.
 
 ## Leaderboard
 
