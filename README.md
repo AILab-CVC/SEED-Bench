@@ -3,7 +3,7 @@
 
  <img src="figs/seed_bench.png" width = "600"  alt="图片名称" align=center />
  
- SEED-Bench consists of 19K multiple choice questions with accurate human annotations, covering 12 evaluation dimensions
+ SEED-Bench consists of 19K multiple-choice questions with accurate human annotations, covering 12 evaluation dimensions
 including both the spatial and temporal understanding.
 ## News
 
