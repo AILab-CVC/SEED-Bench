@@ -1,5 +1,5 @@
 # SEED-Bench: Benchmarking Multimodal LLMs with Generative Comprehension
-[paper](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED_Bench_TechReport.pdf)
+[Arxiv](https://arxiv.org/abs/2307.16125)
 
  <img src="figs/seed_bench.png" width = "600"  alt="图片名称" align=center />
  
