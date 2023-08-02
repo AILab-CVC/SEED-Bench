@@ -69,8 +69,8 @@ The structure of the JSON file for QA data is as follows:
     "question_type": {
         "Scene Understanding": 1,
         "Instance Identity": 2,
-        "Instance Location": 3,
-        "Instance Attributes": 4,
+        "Instance Attributes": 3,
+        "Instance Location": 4,
         "Instances Counting": 5,
         "Spatial Relation": 6,
         "Instance Interaction": 7,
@@ -87,7 +87,7 @@ The image data of evaluation dimension 1-9 comes from CC3M dataset and is upload
 The video data of evaluation dimension 10-12 comes from Something-Something v2, Epic-kitchen 100 and Breakfast dataset.
 
 - Evaluation Dimension 1-9
-    1. Include Scene Understanding, Instance Identity, Instance Location, Instance Attributes, Instances Counting, Spatial Relation, Instance Interaction, Visual Reasoning and Text Understanding.
+    1. Include Scene Understanding, Instance Identity, Instance Attributes, Instance Location, Instances Counting, Spatial Relation, Instance Interaction, Visual Reasoning and Text Understanding.
     2. Image data can be downloaded from our HuggingFace repo.
     3. We use the image file name of each QA pair as 'data_id'.
 
