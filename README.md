@@ -1,7 +1,7 @@
 # SEED-Bench: Benchmarking Multimodal LLMs with Generative Comprehension
 [Arxiv](https://arxiv.org/abs/2307.16125)
 
- <img src="figs/seed_bench.png" width = "600"  alt="图片名称" align=center />
+ <img src="https://github.com/AILab-CVC/SEED-Bench/blob/main/figs/seed-bench.png" width = "600"  alt="图片名称" align=center />
  
  SEED-Bench consists of 19K multiple-choice questions with accurate human annotations, covering 12 evaluation dimensions
 including both the spatial and temporal understanding.
