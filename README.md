@@ -12,8 +12,19 @@ including both the spatial and temporal understanding.
 **[2023.7.30]** SEED-Bench is released! Data and evaluation code is available now.
 
 ## Leaderboard
+Welcome to [SEED-Bench Leaderboard](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard)!
 
- <img src="figs/all_leaderboard.png" width = "400"  alt="图片名称" align=center />
+### Leaderboard Submission
+
+You can submit your model results in [SEED-Bench Leaderboard](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard) now. You can use our evaluation code to obtain 'results.json' in 'results' folder as below.
+
+```shell
+python eval.py --model instruct_blip --anno_path SEED-Bench.json --output-dir results --task all
+```
+
+Then you can upload 'results.json' in [SEED-Bench Leaderboard](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard).
+
+After submitting, please press refresh button to get the latest results.
 
 ## Data Preparation
 
@@ -43,17 +54,7 @@ We select the choice with the highest likelihood as model's prediction.
 Our evaluation strategy does not rely on the instruction-following capabilities 
 of models to output 'A' or 'B' or 'C' or 'D'.
 
-## Leaderboard Submit
 
-You can submit your model results in [SEED-Bench Leaderboard](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard) now. You can use our evaluation code to obtain 'results.json' in 'results' folder as below.
-
-```shell
-python eval.py --model instruct_blip --anno_path SEED-Bench.json --output-dir results --task all
-```
-
-Then you can upload 'results.json' in [SEED-Bench Leaderboard](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard).
-
-After submitting, please press refresh button to get the latest results.
 
 ## License
 SEED-Bench is released under Apache License Version 2.0.
