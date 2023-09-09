@@ -6,6 +6,7 @@
  SEED-Bench consists of 19K multiple-choice questions with accurate human annotations, covering 12 evaluation dimensions
 including both the spatial and temporal understanding.
 ## News
+**[2023.9.9]** We are actively looking for self-motivated interns. Please feel free to reach out if you are interested.
 
 **[2023.8.16]** [SEED-Bench Leaderboard](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard) is released! You can upload your model's results now.
 
