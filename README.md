@@ -46,7 +46,7 @@ python eval.py --model instruct_blip --anno_path SEED-Bench.json --output-dir re
 
 After the evaluation is finished, you can obtain the accuracy of each evaluation dimension and also 'results.json' in 'results' folder, which can be submitted to [SEED-Bench Leaderboard](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard).
 
-If you want to evaluate your own models, please provide the interface like [instruct_blip_interface.py](model/instruct_blip_interface.py.).
+If you want to evaluate your own models, please provide the interface like [instruct_blip_interface.py](https://github.com/AILab-CVC/SEED-Bench/blob/main/model/instruct_blip_interface.py).
 
 Note that to evaluate models with multiple-choice questions, we adopt the answer ranking strategy
 following GPT-3. Specifically, for each choice of a question, we compute the likelihood 
