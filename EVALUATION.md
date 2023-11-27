@@ -6,7 +6,7 @@ The evaluation metric is provided in [eval.py]([eval.py](https://github.com/AILa
 python eval.py --model InternLM_Xcomposer_VL --anno_path SEED-Bench_v2_level1_2_3.json --output-dir results --evaluate_level L2 --evaluate_part all --evaluate_version v2
 ```
 
-After the evaluation is finished, you can obtain the accuracy of each evaluation dimension and also 'results.json' in 'results' folder.
+Upon completion of the evaluation, the results will be available as 'results.json' in the 'results' folder.
 
 If you want to evaluate your own models, please provide the interface like [iInternLM_Xcomposer_VL_interface.py](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-2/model/InternLM_Xcomposer_VL_interface.py).
 
