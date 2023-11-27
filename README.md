@@ -78,3 +78,15 @@ Tencent does not hold the copyright for these images and the copyright belongs t
 For the videos of SEED-Bench-1, we use tha data from Something-Something v2 (https://developer.qualcomm.com/software/ai-datasets/something-something),
 Epic-kitchen 100 (https://epic-kitchens.github.io/2023) and 
 Breakfast (https://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/). We only provide the video name. Please download them in their official websites.
+
+
+## Citing
+If you find this repository helpful, please consider citing it:
+```
+@article{li2023seed,
+  title={Seed-bench: Benchmarking multimodal llms with generative comprehension},
+  author={Li, Bohao and Wang, Rui and Wang, Guangzhi and Ge, Yuying and Ge, Yixiao and Shan, Ying},
+  journal={arXiv preprint arXiv:2307.16125},
+  year={2023}
+}
+```
