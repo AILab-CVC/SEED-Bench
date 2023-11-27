@@ -213,7 +213,7 @@ Data for other evaluation dimensions is obtained from various datasets and uploa
     2. Data can be downloaded from our HuggingFace repo [SEED-Bench-2](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2).
 
 
-Please update the root data directories for dimensions 1-12 (`cc3m_dir`, `seed_bench_v2_dir`) in [eval.py](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-2/eval.py), setting `cc3m_dir` for [SEED-Bench](https://huggingface.co/datasets/AILab-CVC/SEED-Bench) and `seed_bench_v2_dir` for [SEED-Bench-2](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2).
+Please update the root data directories for dimensions 1-27 (`cc3m_dir`, `seed_bench_v2_dir`) in [eval.py](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-2/eval.py), setting `cc3m_dir` for [SEED-Bench](https://huggingface.co/datasets/AILab-CVC/SEED-Bench) and `seed_bench_v2_dir` for [SEED-Bench-2](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2).
 
 
 # Data Preparation for SEED-Bench-1
