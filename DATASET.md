@@ -20,7 +20,7 @@ The structure of the JSON file for QA data is as follows:
             "level": "L1",                                      # The question's level.
             "question": "How many towels are in the image?",
             "question_id": "5_0",                               # Unique ID for each question.
-            "question_type_id": 5                               # Evaluation Dimension.
+            "question_type_id": 5,                              # Evaluation Dimension.
             "subpart": "Single-Image & Text Comprehension",     # The question's subpart.
             "version": "v1"                                     # The question's version.
         },
