@@ -52,6 +52,7 @@ SEED-Bench is released under Apache License Version 2.0.
 ### SEED-Bench-2
 Data Sources:
 - Dimensions 1-9, 23 (In-Context Captioning): Conceptual Captions Dataset (https://ai.google.com/research/ConceptualCaptions/) under its license (https://github.com/google-research-datasets/conceptual-captions/blob/master/LICENSE). Copyright belongs to the original dataset owner.
+- Dimension 9 (Text Recognition): ICDAR2003 (http://www.imglab.org/db/index.html), ICDAR2013(https://rrc.cvc.uab.es/?ch=2), IIIT5k(https://cvit.iiit.ac.in/research/projects/cvit-projects/the-iiit-5k-word-dataset), and SVT(http://vision.ucsd.edu/~kai/svt/). Copyright belongs to the original dataset owner.
 - Dimension 10 (Celebrity Recognition): MME (https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation) and MMBench (https://github.com/open-compass/MMBench) under MMBench license (https://github.com/open-compass/MMBench/blob/main/LICENSE). Copyright belongs to the original dataset owners.
 - Dimension 11 (Landmark Recognition): Google Landmark Dataset v2 (https://github.com/cvdfoundation/google-landmark) under CC-BY licenses without ND restrictions.
 - Dimension 12 (Chart Understanding): PlotQA (https://github.com/NiteshMethani/PlotQA) under its license (https://github.com/NiteshMethani/PlotQA/blob/master/LICENSE).
