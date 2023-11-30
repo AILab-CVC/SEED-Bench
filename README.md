@@ -1,5 +1,5 @@
 # SEED-Bench: Benchmarking Multimodal Large Language Models
-[SEED-Bench-2 Arxiv](https://arxiv.org/abs/2311.17005)
+[SEED-Bench-2 Arxiv](https://arxiv.org/abs/2311.17092)
 
 [SEED-Bench-1 Arxiv](https://arxiv.org/abs/2307.16125)
 
