@@ -1,5 +1,6 @@
 # SEED-Bench: Benchmarking Multimodal Large Language Models
 [SEED-Bench-1 Arxiv](https://arxiv.org/abs/2307.16125)
+[SEED-Bench-2 Arxiv](https://arxiv.org/abs/2311.17005)
 
  <img src="https://github.com/AILab-CVC/SEED-Bench/blob/main/figs/seed-bench-2.jpg" width = "600"  alt="图片名称" align=center />
 
