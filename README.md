@@ -10,6 +10,8 @@
  SEED-Bench-1 consists of 19K multiple-choice questions with accurate human annotations, covering 12 evaluation dimensions
 including both the spatial and temporal understanding.
 ## News
+**[2023.11.30]** We have updated the SEED-Bench-v1 JSON (manually screening the multiple-choice questions for videos) and provided corresponding video frames for easier testing. Please refer to [SEED-Bench](https://huggingface.co/datasets/AILab-CVC/SEED-Bench) for more information.
+
 **[2023.11.27]** SEED-Bench-2 is released! Data and evaluation code is available now.
 
 **[2023.9.9]** We are actively looking for self-motivated interns. Please feel free to reach out if you are interested.
