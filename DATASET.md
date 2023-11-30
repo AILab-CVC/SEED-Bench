@@ -199,21 +199,19 @@ The structure of the JSON file for QA data is as follows:
     }
 }
 ```
-
-Image data for evaluation dimensions 1-9 is sourced from the CC3M dataset and uploaded to the HuggingFace repo [SEED-Bench](https://huggingface.co/datasets/AILab-CVC/SEED-Bench).
-Data for other evaluation dimensions is obtained from various datasets and uploaded to the HuggingFace repo [SEED-Bench-2](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2).
+Data for evaluation is uploaded to the HuggingFace repo [SEED-Bench-2](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2).
 
 - Evaluation Dimension 1-9
     1. Include Scene Understanding, Instance Identity, Instance Attributes, Instance Location, Instances Counting, Spatial Relation, Instance Interaction, Visual Reasoning and Text Understanding.
-    2. Image data can be downloaded from our HuggingFace repo [SEED-Bench](https://huggingface.co/datasets/AILab-CVC/SEED-Bench).
+    2. Image data can be downloaded from our HuggingFace repo [SEED-Bench-2](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2) as [cc3m-image.zip](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2/blob/main/cc3m-image.zip).
     3. We use the image file name of each QA pair as 'data_id'.
 
 - Evaluation Other Dimension:
     1. Include Text Understanding, Celebrity Recognition, Landmark Recognition, Chart Understanding, Visual Referring Expression, Science Knowledge, Emotion Recognition, Visual Mathmatics, Difference Spotting, Meme Comprehension, Global Video Understanding, Action Recognition, Action Prediction, Procedure Understanding, In-Context Captioning, Interleaved Image-Text Analysis, Text-to-Image Generation, Next Image Prediction, Text-Image Creation.
-    2. Data can be downloaded from our HuggingFace repo [SEED-Bench-2](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2).
+    2. Data can be downloaded from our HuggingFace repo [SEED-Bench-2](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2) as [SEED-Bench-2.zip.***](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2).
 
 
-Please update the root data directories for dimensions 1-27 (`cc3m_dir`, `seed_bench_v2_dir`) in [eval.py](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-2/eval.py), setting `cc3m_dir` for [SEED-Bench](https://huggingface.co/datasets/AILab-CVC/SEED-Bench) and `seed_bench_v2_dir` for [SEED-Bench-2](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2).
+Please update the root data directories for dimensions 1-27 (`cc3m_dir`, `seed_bench_v2_dir`) in [eval.py](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-2/eval.py), setting `cc3m_dir` for [cc3m-image.zip](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2/blob/main/cc3m-image.zip)and `seed_bench_v2_dir` for [SEED-Bench-2.zip.***](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2).
 
 
 # Data Preparation for SEED-Bench-1
@@ -325,5 +323,7 @@ The video data of evaluation dimension 10-12 comes from Something-Something v2, 
     ffmpeg -i P35/stereo/P35_milk_ch1.avi -c:v copy -c:a copy P35/stereo/P35_milk_ch1.mp4
     ffmpeg -i P35/stereo/P35_milk_ch1.mp4 P35/stereo/P35_milk_ch1.avi 
     ```
+    
+In addition, we also provide the video frames corresponding to the questions. For each question, we evenly sample the corresponding 8 frames for answering the questions as [v1_video.zip.***](https://huggingface.co/datasets/AILab-CVC/SEED-Bench).
 
 Please change the root data directory of dimension 1-12 (`cc3m_dir`, `dimension10_dir`, `dimension11_dir`, `dimension12_dir`) in [eval.py](eval.py).
