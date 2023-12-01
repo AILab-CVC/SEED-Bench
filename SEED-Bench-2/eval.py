@@ -56,6 +56,8 @@ def filter_questions(data, level='L2', subpart='all', version='v2'):
 def build_model(model_name):
     if model_name == 'InternLM_Xcomposer_VL':
         from model.InternLM_Xcomposer_VL_interface import build
+    elif model_name == 'llava_1.5':
+        from model.llava_v2_interface import build 
     model = build()
 
     return model
