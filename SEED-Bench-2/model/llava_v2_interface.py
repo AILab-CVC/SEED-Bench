@@ -79,7 +79,7 @@ class MLLM_Tester(nn.Module):
             image = torch.cat(image, dim=0)
 
         if "[img]" in question:
-            question = question.replace("[img]", IMAGE_PLACEHOLDER)
+            question = question.replace("<img>", IMAGE_PLACEHOLDER)
         
         all_losses = []
         with torch.no_grad():
