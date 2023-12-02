@@ -213,7 +213,7 @@ class MLLM_Tester(nn.Module):
         x
     ):
         data_path, question, choices = x['data_path'], x['question'], x['choices']
-        if "[img]" not in question:
+        if "<img>" not in question:
             text = self.process_qa(question, choices)
             result = self.generate_answer_with_ppl(text, data_path)
         else: 
