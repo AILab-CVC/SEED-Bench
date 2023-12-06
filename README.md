@@ -10,7 +10,7 @@
  SEED-Bench-1 consists of 19K multiple-choice questions with accurate human annotations, covering 12 evaluation dimensions
 including both the spatial and temporal understanding.
 ## News
-**[2023.11.30]** We have updated the [SEED-Bench Leaderboard](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard) for [SEED-Bench-2](https://arxiv.org/abs/2311.17092). Additionally, we have updated the evaluation results for [GPT-4v](https://openai.com/research/gpt-4v-system-card) on both [SEED-Bench-1](https://arxiv.org/abs/2307.16125) and [SEED-Bench-2](https://arxiv.org/abs/2311.17092). If you are interested, please visit the [SEED-Bench Leaderboard](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard) for more details.
+**[2023.12.4]** We have updated the [SEED-Bench Leaderboard](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard) for [SEED-Bench-2](https://arxiv.org/abs/2311.17092). Additionally, we have updated the evaluation results for [GPT-4v](https://openai.com/research/gpt-4v-system-card) on both [SEED-Bench-1](https://arxiv.org/abs/2307.16125) and [SEED-Bench-2](https://arxiv.org/abs/2311.17092). If you are interested, please visit the [SEED-Bench Leaderboard](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard) for more details.
 
 **[2023.11.30]** We have updated the SEED-Bench-v1 JSON (manually screening the multiple-choice questions for videos) and provided corresponding video frames for easier testing. Please refer to [SEED-Bench](https://huggingface.co/datasets/AILab-CVC/SEED-Bench) for more information.
 
