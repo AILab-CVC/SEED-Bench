@@ -36,7 +36,7 @@ def filter_questions(data, level='L2', subpart='all', version='v2'):
     data = [q for q in data if q["level"] in valid_level_data]
 
     if subpart in ['Single-Image & Text Comprehension', 'Multiple-Images & Text Comprehension', 'Video & Text Comprehension', 'Interleaved Image & Text Comprehension', 'Image Generation', 'Image & Text Generation']:
-        valid_subgroup_data = subgroup
+        valid_subgroup_data = subpart
     elif subpart == 'all':
         valid_subgroup_data = ['Single-Image & Text Comprehension', 'Multiple-Images & Text Comprehension', 'Video & Text Comprehension', 'Interleaved Image & Text Comprehension', 'Image Generation', 'Image & Text Generation']
     else:
