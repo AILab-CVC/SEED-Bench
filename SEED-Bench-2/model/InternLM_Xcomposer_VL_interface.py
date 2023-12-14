@@ -63,7 +63,7 @@ class MLLM_Tester(nn.Module):
 
         img_prompt = ' <|User|>:'
         context = 'N/A'
-        question = question.replace("[img]", '<ImageHere>')
+        question = question.replace("<img>", '<ImageHere>')
         
         mid_prompt = 'Context: ' + context + '\nQuestion: ' + question + '\nOptions: []\n' + options_prompt
         ans_prompt = ' <|Bot|>: Answer: The answer is'
