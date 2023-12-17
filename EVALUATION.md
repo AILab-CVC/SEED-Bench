@@ -8,7 +8,7 @@ python eval.py --model InternLM_Xcomposer_VL --anno_path SEED-Bench_v2_level1_2_
 
 Upon completion of the evaluation, the results will be available as 'results.json' in the 'results' folder.
 
-If you want to evaluate your own models, please provide the interface like [InternLM_Xcomposer_VL_interface.py](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-2/model/InternLM_Xcomposer_VL_interface.py) or [llava_v2_interface.py](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-2/model/llava_v2_interface.py) for LLaVA 1.5.
+If you want to evaluate your own models, please provide the interface like [InternLM_Xcomposer_VL_interface.py](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-2/model/InternLM_Xcomposer_VL_interface.py), [llava_v2_interface.py](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-2/model/llava_v2_interface.py) for LLaVA 1.5 or [qwen_vl_chat_interface.py](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-2/model/qwen_vl_chat_interface.py) for qwen_vl_chat.
 
 
 ## Run Evaluation for SEED-Bench-1
