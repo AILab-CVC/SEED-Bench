@@ -29,7 +29,7 @@ def filter_questions(data, level='L2', subpart='all', version='v2'):
         valid_level_data = ['L1']
     elif level == "L2":
         valid_level_data = ['L1', 'L2']
-    elif task == "L3":
+    elif level == "L3":
         valid_level_data = ['L1', 'L2', 'L3']
     else:
         raise ValueError(f"Invalid level: {level}")
