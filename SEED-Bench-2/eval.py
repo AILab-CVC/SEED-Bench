@@ -128,7 +128,7 @@ if __name__ == '__main__':
     if 'questions' in qa_anno.keys():
         qa_anno = qa_anno['questions']
     qa_anno = filter_questions(qa_anno, args.evaluate_level, args.evaluate_part, args.evaluate_version)
-    pdb.set_trace()
+    # pdb.set_trace()
 
     if not os.path.exists(args.output_dir):
         os.mkdir(args.output_dir)
