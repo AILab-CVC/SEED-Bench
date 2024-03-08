@@ -78,7 +78,7 @@ class MLLM_Tester(nn.Module):
                     image.append(self.vis_processor(raw_image).unsqueeze(0).cuda())
             image = torch.cat(image, dim=0)
 
-        if "[img]" in question:
+        if "<img>" in question:
             question = question.replace("<img>", IMAGE_PLACEHOLDER)
         
         all_losses = []
