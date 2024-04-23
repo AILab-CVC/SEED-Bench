@@ -10,6 +10,8 @@
  SEED-Bench-1 consists of 19K multiple-choice questions with accurate human annotations, covering 12 evaluation dimensions
 including both the spatial and temporal understanding.
 ## News
+**[2024.4.23]** We are pleased to share the comprehensive evaluation results for [Gemini-Vision-Pro](https://gemini.google.com/) and [Claude-3-Opus](https://www.anthropic.com/news/claude-3-family) on [SEED-Bench-1](https://arxiv.org/abs/2307.16125) and [SEED-Bench-2](https://arxiv.org/abs/2311.17092). You can access detailed performance on the [SEED-Bench Leaderboard](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard). Please note that for [Gemini-Vision-Pro](https://gemini.google.com/) we only report task performance when the model responds with at least 50% valid data in the task. 
+
 **[2024.2.27]** [SEED-Bench](https://arxiv.org/abs/2311.17092) is accepted by **CVPR 2024**.
 
 **[2023.12.18]** We have placed the comprehensive evaluation results for [GPT-4v](https://openai.com/research/gpt-4v-system-card) on [SEED-Bench-1](https://arxiv.org/abs/2307.16125) and [SEED-Bench-2](https://arxiv.org/abs/2311.17092). These can be accessed at [GPT-4V for SEED-Bench-1](https://github.com/AILab-CVC/SEED-Bench/blob/main/evaluate_result/SEED-Bench-1/GPT-4V.json) and [GPT-4V for SEED-Bench-2](https://github.com/AILab-CVC/SEED-Bench/blob/main/evaluate_result/SEED-Bench-2/GPT-4V.json). If you're interested, please feel free to take a look.
