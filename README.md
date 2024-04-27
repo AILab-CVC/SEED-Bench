@@ -7,12 +7,13 @@
 
  <img src="https://github.com/AILab-CVC/SEED-Bench/blob/main/figs/seed-bench-2.jpg" width = "600"  alt="图片名称" align=center />
 
+ SEED-Bench-2-Plus comprises 2.3K multiple-choice questions with precise human annotations, spanning three broad categories: Charts, Maps, and Webs, each of which covers a wide spectrum of textrich scenarios in the real world.
+
  SEED-Bench-2 comprises 24K multiple-choice questions with accurate human annotations, which spans 27 dimensions, including the evaluation of both text and image generation.
  
- SEED-Bench-1 consists of 19K multiple-choice questions with accurate human annotations, covering 12 evaluation dimensions
-including both the spatial and temporal understanding.
+ SEED-Bench-1 consists of 19K multiple-choice questions with accurate human annotations, covering 12 evaluation dimensions including both the spatial and temporal understanding.
 ## News
-**[2024.4.26]** We are excited to announce the release of [SEED-Bench-2-Plus](https://arxiv.org/abs/2404.16790), a benchmark specifically designed for text-rich visual comprehension. The accompanying dataset will be available soon.
+**[2024.4.26]** We are excited to announce the release of [SEED-Bench-2-Plus](https://arxiv.org/abs/2404.16790), a benchmark specifically designed for text-rich visual comprehension. The accompanying dataset is released on [SEED-Bench-2-Plus](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2-plus).
 
 **[2024.4.23]** We are pleased to share the comprehensive evaluation results for [Gemini-Vision-Pro](https://gemini.google.com/) and [Claude-3-Opus](https://www.anthropic.com/news/claude-3-family) on [SEED-Bench-1](https://arxiv.org/abs/2307.16125) and [SEED-Bench-2](https://arxiv.org/abs/2311.17092). You can access detailed performance on the [SEED-Bench Leaderboard](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard). Please note that for [Gemini-Vision-Pro](https://gemini.google.com/) we only report task performance when the model responds with at least 50% valid data in the task. 
 
@@ -49,7 +50,7 @@ After submitting, please press refresh button to get the latest results.
 
 ## Data Preparation
 
-You can download the data of SEED-Bench released on HuggingFace repo [SEED-Bench](https://huggingface.co/datasets/AILab-CVC/SEED-Bench) and [SEED-Bench-2](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2).
+You can download the data of SEED-Bench released on HuggingFace repo [SEED-Bench](https://huggingface.co/datasets/AILab-CVC/SEED-Bench), [SEED-Bench-2](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2), and [SEED-Bench-2-Plus](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2-plus).
 Please refer to [DATASET.md](DATASET.md) for data preparation.
 
 ## Installation
@@ -64,6 +65,11 @@ Please refer to [EVALUATION.md](EVALUATION.md).
 SEED-Bench is released under Apache License Version 2.0.
 
 ## Declaration
+
+### SEED-Bench-2-Plus
+Data Sources: Data from the internet under CC-BY licenses.
+
+Please contact us if you believe any data infringes upon your rights, and we will remove it.
 
 ### SEED-Bench-2
 Data Sources:
