@@ -106,6 +106,13 @@ Breakfast (https://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/)
 ## Citing
 If you find this repository helpful, please consider citing it:
 ```
+@article{li2024seed2plus,
+  title={SEED-Bench-2-Plus: Benchmarking Multimodal Large Language Models with Text-Rich Visual Comprehension},
+  author={Li, Bohao and Ge, Yuying and Chen, Yi and Ge, Yixiao and Zhang, Ruimao and Shan, Ying},
+  journal={arXiv preprint arXiv:2404.16790},
+  year={2024}
+}
+
 @article{li2023seed2,
   title={SEED-Bench-2: Benchmarking Multimodal Large Language Models},
   author={Li, Bohao and Ge, Yuying and Ge, Yixiao and Wang, Guangzhi and Wang, Rui and Zhang, Ruimao and Shan, Ying},
