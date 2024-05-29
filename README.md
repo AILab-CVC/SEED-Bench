@@ -13,6 +13,8 @@
  
  SEED-Bench-1 consists of 19K multiple-choice questions with accurate human annotations, covering 12 evaluation dimensions including both the spatial and temporal understanding.
 ## News
+**[2024.5.25]** [SEED-Bench-2-Plus](https://arxiv.org/abs/2404.16790) can be evaluated on [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), thanks to [kennymckormick](https://github.com/kennymckormick).
+
 **[2024.4.26]** We are excited to announce the release of [SEED-Bench-2-Plus](https://arxiv.org/abs/2404.16790), a benchmark specifically designed for text-rich visual comprehension. The accompanying dataset is released on [SEED-Bench-2-Plus](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2-plus).
 
 **[2024.4.23]** We are pleased to share the comprehensive evaluation results for [Gemini-Vision-Pro](https://gemini.google.com/) and [Claude-3-Opus](https://www.anthropic.com/news/claude-3-family) on [SEED-Bench-1](https://arxiv.org/abs/2307.16125) and [SEED-Bench-2](https://arxiv.org/abs/2311.17092). You can access detailed performance on the [SEED-Bench Leaderboard](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard). Please note that for [Gemini-Vision-Pro](https://gemini.google.com/) we only report task performance when the model responds with at least 50% valid data in the task. 
