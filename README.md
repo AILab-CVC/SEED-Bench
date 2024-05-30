@@ -1,4 +1,6 @@
 # SEED-Bench: Benchmarking Multimodal Large Language Models
+[SEED-Bench-H](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-H/SEED-Bench-H.pdf)
+
 [SEED-Bench-2-Plus Arxiv](https://arxiv.org/abs/2404.16790)
 
 [SEED-Bench-2 Arxiv](https://arxiv.org/abs/2311.17092)
