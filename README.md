@@ -8,8 +8,9 @@
 [SEED-Bench-1 Arxiv](https://arxiv.org/abs/2307.16125)
 
  <img src="https://github.com/AILab-CVC/SEED-Bench/blob/main/figs/seed-bench-2.jpg" width = "600"  alt="图片名称" align=center />
- SEED-Bench-H is a comprehensive integration of previous SEED-Bench series (SEED-Bench, SEED-Bench-2, SEED-Bench-2-Plus), with additional evaluation dimension. It consists of 28K multiple-choice questions with precise human annotations, spanning 34 dimensions, including the evaluation of both text and image generation.
  
+ SEED-Bench-H is a comprehensive integration of previous SEED-Bench series (SEED-Bench, SEED-Bench-2, SEED-Bench-2-Plus), with additional evaluation dimension. 
+ It consists of 28K multiple-choice questions with precise human annotations, spanning 34 dimensions, including the evaluation of both text and image generation.
 
  SEED-Bench-2-Plus comprises 2.3K multiple-choice questions with precise human annotations, spanning three broad categories: Charts, Maps, and Webs, each of which covers a wide spectrum of textrich scenarios in the real world.
 
