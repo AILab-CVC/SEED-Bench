@@ -18,7 +18,7 @@
  
  SEED-Bench-1 consists of 19K multiple-choice questions with accurate human annotations, covering 12 evaluation dimensions including both the spatial and temporal understanding.
 ## News
-**[2024.7.11]** [SEED-Bench-H](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-H/SEED-Bench-H.pdf), [SEED-Bench-2-Plus](https://arxiv.org/abs/2404.16790), [SEED-Bench-2](https://arxiv.org/abs/2311.17092), and [SEED-Bench-1](https://arxiv.org/abs/2307.16125) data is released on [ModelScope](https://modelscope.cn/organization/TencentARC?tab=dataset), thanks to [ModelScope Community](https://modelscope.cn/home).
+**[2024.7.11]** [SEED-Bench-H](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-H/SEED-Bench-H.pdf), [SEED-Bench-2-Plus](https://arxiv.org/abs/2404.16790), [SEED-Bench-2](https://arxiv.org/abs/2311.17092), and [SEED-Bench-1](https://arxiv.org/abs/2307.16125) data is released on [ModelScope](https://modelscope.cn/organization/TencentARC?tab=dataset), thanks to [ModelScope Community](https://modelscope.cn).
 
 **[2024.6.18]** [SEED-Bench-2](https://arxiv.org/abs/2311.17092) can be evaluated on [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), thanks to [kennymckormick](https://github.com/kennymckormick).
 
