@@ -18,6 +18,8 @@
  
  SEED-Bench-1 consists of 19K multiple-choice questions with accurate human annotations, covering 12 evaluation dimensions including both the spatial and temporal understanding.
 ## News
+**[2024.7.11]** [SEED-Bench-H](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-H/SEED-Bench-H.pdf), [SEED-Bench-2-Plus](https://arxiv.org/abs/2404.16790), [SEED-Bench-2](https://arxiv.org/abs/2311.17092), and [SEED-Bench-1](https://arxiv.org/abs/2307.16125) data is released on [ModelScope](https://modelscope.cn/organization/TencentARC?tab=dataset), thanks to [ModelScope Community](https://modelscope.cn/home).
+
 **[2024.6.18]** [SEED-Bench-2](https://arxiv.org/abs/2311.17092) can be evaluated on [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), thanks to [kennymckormick](https://github.com/kennymckormick).
 
 **[2024.5.30]** We released [SEED-Bench-H](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-H/SEED-Bench-H.pdf), which is a comprehensive integration of previous SEED-Bench series ([SEED-Bench](https://arxiv.org/abs/2311.17092), [SEED-Bench-2](https://arxiv.org/abs/2311.17092), [SEED-Bench-2-Plus](https://arxiv.org/abs/2404.16790)), with additional evaluation dimension. The additional evaluation dimension including Image to Latex, Visual Story Comprehension, Few-shot Segmentation, Few-shot Keypoint, Few-shot Depth, and Few-shot Object Detection. Please refer [SEED-Bench-H](https://github.com/AILab-CVC/SEED-Bench/blob/main/SEED-Bench-H/SEED-Bench-H.pdf) for detailed. Corresponding dataset is released on [SEED-Bench-H](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-H).
@@ -61,7 +63,7 @@ After submitting, please press refresh button to get the latest results.
 
 ## Data Preparation
 
-You can download the data of SEED-Bench released on HuggingFace repo [SEED-Bench](https://huggingface.co/datasets/AILab-CVC/SEED-Bench), [SEED-Bench-2](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2), and [SEED-Bench-2-Plus](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2-plus).
+You can download the data of SEED-Bench released on HuggingFace repo [SEED-Bench](https://huggingface.co/datasets/AILab-CVC/SEED-Bench), [SEED-Bench-2](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2), [SEED-Bench-2-Plus](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2-plus), and [SEED-Bench-H](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-H).
 Please refer to [DATASET.md](DATASET.md) for data preparation.
 
 ## Installation
