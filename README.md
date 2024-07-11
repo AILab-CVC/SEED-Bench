@@ -64,6 +64,7 @@ After submitting, please press refresh button to get the latest results.
 ## Data Preparation
 
 You can download the data of SEED-Bench released on HuggingFace repo [SEED-Bench](https://huggingface.co/datasets/AILab-CVC/SEED-Bench), [SEED-Bench-2](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2), [SEED-Bench-2-Plus](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-2-plus), and [SEED-Bench-H](https://huggingface.co/datasets/AILab-CVC/SEED-Bench-H).
+Also, you can download data from [ModelScope](https://modelscope.cn/organization/TencentARC?tab=dataset).
 Please refer to [DATASET.md](DATASET.md) for data preparation.
 
 ## Installation
